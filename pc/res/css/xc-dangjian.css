@@ -1,0 +1,148 @@
+body {
+  font-size: 16px;
+}
+
+.page-body.skin-watermelon .sidebar-menu .logo-env,
+.sidebar-menu .logo-env {
+  border-bottom: none;
+}
+.navbar-nav > .active {
+  background-color: #b63131 !important;
+}
+.navbar-nav > li.active > a {
+  background-color: #b63131 !important;
+  color: white !important;
+}
+.sidebar-menu .main-menu a {
+  font-size: 14px;
+}
+.sidebar-menu .main-menu a > span {
+  font-size: 14px;
+}
+.sidebar-menu .main-menu a > i + span {
+  font-size: 14px;
+}
+.profile-env .user-timeline-stories .timeline-story header,
+.profile-env .user-timeline-stories .timeline-story .story-comments .story-comment .story-comment-content .story-comment-user-name {
+  font-size: 14px;
+  color: #666;
+}
+.profile-env .user-timeline-stories .timeline-story header time,
+.profile-env .user-timeline-stories .timeline-story .story-comments .story-comment .story-comment-content .story-comment-user-name time {
+  font-size: 14px;
+  color: #999;
+}
+.profile-env .user-timeline-stories .timeline-story .story-content p,
+.profile-env .user-timeline-stories .timeline-story .story-comments .story-comment .story-comment-content p {
+  font-size: 14px;
+  color: #666;
+}
+.profile-env .user-timeline-stories .timeline-story .story-options-links a {
+  font-size: 12px;
+  color: #999;
+}
+.profile-env .user-timeline-stories .timeline-story .story-comment-form textarea {
+  font-size: 14px;
+  color: #999;
+}
+.panel .panel-heading > .panel-title {
+  font-size: 20px;
+}
+.form-control {
+  font-size: 14px;
+  color: #999;
+}
+.btn,
+.breadcrumb li a,
+.breadcrumb li.active > *,
+.input-lg,
+.form-horizontal .form-group-lg .form-control,
+.profile-env .profile-post-form .post-story-button,
+.user-info-navbar .user-info-menu li,
+.dataTables_wrapper table.dataTable thead > tr > th,
+.dataTables_wrapper table.dataTable tfoot > tr > th {
+  font-size: 14px;
+}
+.user-info-navbar .user-info-menu > li.search-form .search-field,
+.navbar.horizontal-menu .navbar-inner > .nav > li.search-form .search-field {
+  font-size: 14px !important;
+}
+.sidebar-menu .main-menu a > span.active {
+  color: #fff;
+}
+input[type='radio']:focus {
+  cursor: pointer;
+  outline: none;
+}
+#modal-6 label,
+#modal-2 label {
+  font-size: 14px;
+  color: #999;
+}
+#example-2_filter .form-control {
+  padding-top: 5px;
+}
+.modal-footer {
+  border-top: none;
+}
+.form-control {
+  height: 35px;
+}
+.panel .panel-heading {
+  font-size: 20px;
+}
+.modal-title {
+  font-size: 20px;
+}
+.xc-select {
+  position: relative;
+  z-index: 2;
+}
+.xc-select span {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  z-index: 3;
+}
+.xe-conversations h3 {
+  font-size: 20px;
+  color: #333;
+}
+.xe-conversations a {
+  font-size: 16px;
+  color: #999;
+}
+.xe-conversations ahover {
+  color: #666;
+}
+.xe-conversations p {
+  font-size: 14px;
+  color: #999;
+}
+.xe-conversations span,
+.xe-conversations b,
+.xe-conversations i {
+  font-style: normal;
+  font-weight: normal;
+}
+.mailbox-env .mail-compose h3 {
+  font-size: 20px;
+}
+#toFrontBtn a span,#toBackBtn a span{
+	padding: 5px 10px;
+	background: #ab2d32;
+	color: #fff;
+	font-size: 10px;
+	-webkit-animation-duration: .5s;
+	-moz-animation-duration: .5s;
+	-o-animation-duration: .5s;
+	animation-duration: .5s;
+}
+#toFrontBtn a:hover span,#toBackBtn a:hover span{
+	opacity: .8;
+	filter: alpha(opacity=80);
+	-webkit-animation-duration: .5s;
+	-moz-animation-duration: .5s;
+	-o-animation-duration: .5s;
+	animation-duration: .5s;
+}
