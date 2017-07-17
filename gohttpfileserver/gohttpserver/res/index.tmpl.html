@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>gohttp server</title>
+  <link rel="shortcut icon" type="image/png" href="/-/res/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="/-/res/bootstrap-3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/-/res/font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/-/res/css/github-markdown.css">
+  <link rel="stylesheet" type="text/css" href="/-/res/css/dropzone.css">
+  <link rel="stylesheet" type="text/css" href="/-/res/css/scrollUp-image.css">
+  <link rel="stylesheet" type="text/css" href="/-/res/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/-/res/themes/[[.Theme]].css">
+</head>
+
+<body id="app">
+  <div class="container">
+    <div class="col-md-12">
+      <table class="table table-hover" v-if="!previewMode">
+        <thead>
+          <tr>
+            <td colspan=4>
+              <!-- <button class="btn btn-xs btn-default" v-on:click='toggleHidden()'>
+                                Back <i class="fa" v-bind:class='showHidden ? "fa-eye" : "fa-eye-slash"'></i>
+                            </button> -->
+              <button class="btn btn-xs btn-default" onclick="history.back()">
+                后退 <i class="fa fa-arrow-left"></i>
+              </button>
+              <button class="btn btn-xs btn-default" v-if="auth.upload" data-toggle="modal" data-target="#upload-modal">
+                上传 <i class="fa fa-upload"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>文件名</th>
+            <th>大小</th>
+            <th class="hidden-xs">
+              <span style="cursor: pointer" v-on:click='mtimeTypeFromNow = !mtimeTypeFromNow'>更新时间</span>
+            </th>
+            <th>动作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="f in computedFiles">
+            <td>
+              <a v-on:click='clickFileOrDir(f, $event)' href="/{{f.path + (f.type == 'dir' ? '' : '')}}">
+                <!-- ?raw=false -->
+                <i style="padding-right: 0.5em" class="fa" v-bind:class='genFileClass(f)'></i> {{f.name}}
+              </a>
+            </td>
+            <td>{{f.size | formatBytes}}</td>
+            <td class="hidden-xs">{{formatTime(f.mtime)}}</td>
+            <td style="text-align: left">
+              <template v-if="f.type == 'dir'">
+                <a class="btn btn-default btn-xs" href="/-/zip/{{f.path}}">
+                  <span class="hidden-xs">打包</span> 下载
+                  <span class="glyphicon glyphicon-download-alt"></span>
+                </a>
+              </template>
+              <template v-if="f.type == 'file'">
+                <a class="btn btn-default btn-xs" href="/{{f.path}}?download=true">
+                  <span class="">下载</span>
+                  <span class="glyphicon glyphicon-download-alt"></span>
+                </a>
+                <a class="btn btn-default btn-xs visible-xs" v-if="shouldHaveQrcode(f.name)" href="{{genInstallURL(f.name)}}">
+                                    Install <i class="fa fa-cube"></i>
+                                </a>
+                <button class="btn btn-default btn-xs" v-if="auth.delete" v-on:click="deletePathConfirm(f, $event)">
+                  <span style="color:#CC3300" class="glyphicon glyphicon-trash"></span>
+                </button>
+              </template>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Upload modal-->
+  <div id="upload-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">
+            <i class="fa fa-upload"></i> 文件上传
+          </h4>
+        </div>
+        <div class="modal-body">
+          <form action="#" class="dropzone" id="my-dropzone"></form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+
+  <script src="/-/res/js/jquery-3.1.0.min.js"></script>
+  <script src="/-/res/js/jquery.qrcode.js"></script>
+  <script src="/-/res/js/jquery.scrollUp.min.js"></script>
+  <script src="/-/res/js/qrcode.js"></script>
+  <script src="/-/res/js/vue-1.0.min.js"></script>
+  <script src="/-/res/js/showdown-1.4.2.min.js"></script>
+  <script src="/-/res/js/moment.min.js"></script>
+  <script src="/-/res/js/dropzone.js"></script>
+  <script src="/-/res/js/underscore-min.js"></script>
+  <script src="/-/res/js/clipboard-1.5.12.min.js"></script>
+  <script src="/-/res/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+  <script src="/-/res/js/index.js"></script>
+  <script>
+    document.domain =  "localhost";
+  </script>
+</body>
+
+</html>
