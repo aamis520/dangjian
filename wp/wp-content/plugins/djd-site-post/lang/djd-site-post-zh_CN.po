@@ -1,0 +1,514 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <jarzyna.dirk@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DJD Site Post\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-21 09:15+0800\n"
+"PO-Revision-Date: 2014-03-21 10:44+0800\n"
+"Last-Translator: 逍遥乐 <luoxiao123@outlook.com>\n"
+"Language-Team: 逍遥乐汉化 <luoxiao123@outlook.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.4\n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: djd-site-post\n"
+
+#: djd-site-post/djd-site-post.php:237 djd-site-post/views/admin.php:98
+msgid "DJD Site Post Settings"
+msgstr "DJD Site Post 设置"
+
+#: djd-site-post/djd-site-post.php:237 djd-site-post/inc/djdsp-widget.php:50
+msgid "DJD Site Post"
+msgstr "DJD Site Post"
+
+#: djd-site-post/djd-site-post.php:245
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"
+
+#: djd-site-post/djd-site-post.php:332
+msgid "Error"
+msgstr "错误"
+
+#: djd-site-post/djd-site-post.php:465
+msgid "Please login or register to use this function."
+msgstr "请登录或注册才能使用此功能。"
+
+#: djd-site-post/djd-site-post.php:465
+msgid "Notice"
+msgstr "通知"
+
+#: djd-site-post/djd-site-post.php:529
+msgid ""
+"Unable to create new category. Please try again or select an existing "
+"category."
+msgstr "无法创建新的分类。请重试或选择现有的分类。"
+
+#: djd-site-post/djd-site-post.php:595
+msgid ""
+"We were unable to accept your post at this time. Please try again. If the "
+"problem persists tell the site owner."
+msgstr ""
+"现在我们无法接受您的文章。请再试一次。如果问题仍然存在，请告知网站管理员。"
+
+#: djd-site-post/djd-site-post.php:608
+msgid "New post submitted from frontend to"
+msgstr "从前端提交新文章"
+
+#: djd-site-post/djd-site-post.php:608
+msgid "To view the entry click here:"
+msgstr "点击这里查看条目："
+
+#: djd-site-post/djd-site-post.php:609
+msgid "New frontend post to"
+msgstr "新前端文章到"
+
+#: djd-site-post/inc/djdsp-widget.php:17
+msgid ""
+"Use this widget to include a form to write and publish articles from the "
+"sidebar."
+msgstr "使用这个小工具，包括一个表格，从侧边栏撰写和发表文章。"
+
+#: djd-site-post/inc/djdsp-widget.php:18
+msgid "DJD Site Post Widget"
+msgstr "DJD Site Post 小工具"
+
+#: djd-site-post/inc/djdsp-widget.php:91
+msgid "Title:"
+msgstr "标题："
+
+#: djd-site-post/views/admin.php:14
+msgid "Main Settings"
+msgstr "主要设置"
+
+#: djd-site-post/views/admin.php:15
+msgid "Form Title"
+msgstr "表单标题"
+
+#: djd-site-post/views/admin.php:16
+msgid "Edit Page ID"
+msgstr "编辑页面ID"
+
+#: djd-site-post/views/admin.php:17
+msgid "Publish Status"
+msgstr "发布状态"
+
+#: djd-site-post/views/admin.php:18
+msgid "Post Confirmation Message"
+msgstr "文章确认消息"
+
+#: djd-site-post/views/admin.php:19
+msgid "Post Failure Message"
+msgstr "发表失败消息"
+
+#: djd-site-post/views/admin.php:21
+msgid "Mail on New Post"
+msgstr "新文章发送邮件"
+
+#: djd-site-post/views/admin.php:22
+msgid "Display Login Link in Form"
+msgstr "在表单显示登录链接"
+
+#: djd-site-post/views/admin.php:25
+msgid "Default Post Format"
+msgstr "默认文章格式"
+
+#: djd-site-post/views/admin.php:29
+msgid "Allow selection of Post Format"
+msgstr "允许选择文章格式"
+
+#: djd-site-post/views/admin.php:30
+msgid "Hide WordPress Toolbar"
+msgstr "隐藏WordPress工具栏"
+
+#: djd-site-post/views/admin.php:31
+msgid "Hide regular WP Edit Link"
+msgstr "隐藏常规WP编辑链接"
+
+#: djd-site-post/views/admin.php:33
+msgid "Allow guest to post"
+msgstr "允许游客发表文章"
+
+#: djd-site-post/views/admin.php:34
+msgid "Guest Account"
+msgstr "游客账户"
+
+#: djd-site-post/views/admin.php:35
+msgid "Allow Guests to select Category"
+msgstr "允许游客选择分类"
+
+#: djd-site-post/views/admin.php:36
+msgid "Category for Guest Posts"
+msgstr "游客文章分类"
+
+#: djd-site-post/views/admin.php:37
+msgid "Show Guests a Spam Prevention Quiz"
+msgstr "显示游客反垃圾验证信息"
+
+#: djd-site-post/views/admin.php:39
+msgid "Category Settings"
+msgstr "分类设置"
+
+#: djd-site-post/views/admin.php:40
+msgid "Display Categories"
+msgstr "Kategorien anzeigen"
+
+#: djd-site-post/views/admin.php:41
+msgid "Create New Category"
+msgstr "创建新的分类"
+
+#: djd-site-post/views/admin.php:42
+msgid "Categrory Order"
+msgstr "分类排序"
+
+#: djd-site-post/views/admin.php:44
+msgid "Field Settings"
+msgstr "字段设置"
+
+#: djd-site-post/views/admin.php:45
+msgid "Require a Title"
+msgstr "必须填写一个标题"
+
+#: djd-site-post/views/admin.php:46
+msgid "Show Separate Excerpt"
+msgstr "显示单独的摘要："
+
+#: djd-site-post/views/admin.php:47
+msgid "Content Field Style"
+msgstr "内容栏风格"
+
+#: djd-site-post/views/admin.php:48
+msgid "Allow Media Upload"
+msgstr "允许媒体上传"
+
+#: djd-site-post/views/admin.php:49
+msgid "Allow Tags"
+msgstr "允许标签"
+
+#: djd-site-post/views/admin.php:50
+msgid "Email & Name for Guest Posts"
+msgstr "游客发表文章必填邮箱&姓名"
+
+#: djd-site-post/views/admin.php:53
+msgid "Labels"
+msgstr "标记"
+
+#: djd-site-post/views/admin.php:54 djd-site-post/views/display.php:84
+msgid "Title"
+msgstr "标题："
+
+#: djd-site-post/views/admin.php:55 djd-site-post/views/display.php:87
+msgid "Excerpt"
+msgstr "摘要:"
+
+#: djd-site-post/views/admin.php:56
+msgid "Content"
+msgstr "内容:"
+
+#: djd-site-post/views/admin.php:57
+msgid "Tags"
+msgstr "标签："
+
+#: djd-site-post/views/admin.php:58
+msgid "Categories"
+msgstr "分类："
+
+#: djd-site-post/views/admin.php:59
+msgid "New Category"
+msgstr "新的分类"
+
+#: djd-site-post/views/admin.php:60
+msgid "Send Button"
+msgstr "发送按钮"
+
+#: djd-site-post/views/admin.php:99
+msgid "Need help? Just click here!"
+msgstr "需要帮助？只需点击这里！"
+
+#: djd-site-post/views/admin.php:101
+msgid "Documentation is here!"
+msgstr ""
+"说明文件就在这里！</a><br/>本插件由<a href=\"http://www.luoxiao123.cn/\">逍遥"
+"乐汉化</a>，更多wordpress汉化请到<a href=\"http://www.luoxiao123.cn/\">逍遥乐"
+"IT博客</a>    <br/>"
+
+#: djd-site-post/views/admin.php:127
+msgid ""
+"Enter the ID of the page where the edit form appears (the page where you "
+"entered the plugin shortcode)."
+msgstr "输入显示编辑表单形式（如输入插件简码的页面）的页面的ID。"
+
+#: djd-site-post/views/admin.php:161 djd-site-post/views/display.php:204
+#: djd-site-post/views/display.php:211
+msgid "Publish"
+msgstr "发布"
+
+#: djd-site-post/views/admin.php:162 djd-site-post/views/display.php:205
+msgid "Pending"
+msgstr "待审"
+
+#: djd-site-post/views/admin.php:163 djd-site-post/views/display.php:206
+msgid "Draft"
+msgstr "草稿"
+
+#: djd-site-post/views/admin.php:164 djd-site-post/views/display.php:207
+msgid "Private"
+msgstr "私密"
+
+#: djd-site-post/views/admin.php:167
+msgid ""
+"<p class='description'>The Status assigned to the new Post (Publish, "
+"Pending, Draft, Private).</p>"
+msgstr ""
+"<p class='description'>新发表文章的状态（发布，待审，草稿，私密）。</p>"
+
+#: djd-site-post/views/admin.php:174
+msgid "Check to display a field to enter tags."
+msgstr "检查显示字段输入标签。"
+
+#: djd-site-post/views/admin.php:181
+msgid "Check to require email and name for guest posts."
+msgstr "检查游客发表文章必填电子邮件，姓名等。"
+
+#: djd-site-post/views/admin.php:188
+msgid "Check to enforce the user to enter a title for his post."
+msgstr "检查强制用户必须输入文章标题"
+
+#: djd-site-post/views/admin.php:195
+msgid "Check to display a separate field for the excerpt."
+msgstr "检查显示一个单独的字段的摘录。"
+
+#: djd-site-post/views/admin.php:202
+msgid "Check to display an editor field for the content."
+msgstr "检查内容显示一个编辑字段。"
+
+#: djd-site-post/views/admin.php:208
+msgid "Simple - Plain Text"
+msgstr "简单 - 纯文字"
+
+#: djd-site-post/views/admin.php:209
+msgid "Rich - Visual and HTML"
+msgstr "丰富 - 视觉和HTML"
+
+#: djd-site-post/views/admin.php:210
+msgid "Visual - Visual Only"
+msgstr "视觉 - 自由视觉编辑"
+
+#: djd-site-post/views/admin.php:211
+msgid "HTML - HTML Only"
+msgstr "HTML - 只有html编辑"
+
+#: djd-site-post/views/admin.php:214
+msgid ""
+"<p class='description'>For responsive layouts it is recommended not to use "
+"the visual content field style,</p>"
+msgstr ""
+"<p class='description'>为响应布局建议不要使用可视化内容字段中的风格，</p>"
+
+#: djd-site-post/views/admin.php:215
+msgid ""
+"<p class='description'>because some Android browsers don't support some of "
+"the tages used.</p>"
+msgstr ""
+"<p class='description'>因为有些Android的浏览器不支持一些标签的使用。</p>"
+
+#: djd-site-post/views/admin.php:220
+msgid "<p class=\"description\">Your custom post-success message.</p>"
+msgstr "<p class=\"description\">您的自定义文章发表成功的消息。</p>"
+
+#: djd-site-post/views/admin.php:225
+msgid "<p class=\"description\">Your custom post-failure message.</p>"
+msgstr "<p class=\"description\">您的自定义文章发表失败的消息。</p>"
+
+#: djd-site-post/views/admin.php:230
+msgid ""
+"<p class=\"description\">The URL to redirect the user to after his post.</p>"
+msgstr "<p class=\"description\">发表文章后，将用户重定向到URL。</p>"
+
+#: djd-site-post/views/admin.php:231
+msgid ""
+"<p class=\"description\">Shortcode parameters will overwrite this setting.</"
+"p>"
+msgstr "<p class=\"description\">简码参数将覆盖此设置。</p>"
+
+#: djd-site-post/views/admin.php:238
+msgid "Check to notify admin on new post."
+msgstr "新发表文章通知管理员。"
+
+#: djd-site-post/views/admin.php:244
+msgid "Droplist"
+msgstr "下拉框"
+
+#: djd-site-post/views/admin.php:245
+msgid "Check boxes"
+msgstr "复选框"
+
+#: djd-site-post/views/admin.php:246
+msgid "No display"
+msgstr "不显示"
+
+#: djd-site-post/views/admin.php:249
+msgid "How categories appear at the front end."
+msgstr "如何在前端显示分类。"
+
+#: djd-site-post/views/admin.php:250
+msgid ""
+"<p class=\"description\">You can select not to display categories at all.</p>"
+msgstr "<p class=\"description\">您可以选择不显示所有分类。</p>"
+
+#: djd-site-post/views/admin.php:257
+msgid "Check if user should be able to create a new category himself."
+msgstr "检查用户可以自己创建一个新的分类。"
+
+#: djd-site-post/views/admin.php:263
+msgid "by ID"
+msgstr "通过ID"
+
+#: djd-site-post/views/admin.php:264
+msgid "by name"
+msgstr "通过姓名"
+
+#: djd-site-post/views/admin.php:267
+msgid "The sort order of categories at the front end."
+msgstr "在前端分类的排序顺序。"
+
+#: djd-site-post/views/admin.php:274
+msgid "Allow user to upload new media file (picture, video)."
+msgstr "允许用户上传新的媒体文件（图片，视频）。"
+
+#: djd-site-post/views/admin.php:281
+msgid "Display a Login Link inside the form."
+msgstr "在表单中显示登录链接"
+
+#: djd-site-post/views/admin.php:295
+msgid "Select the default Post Format."
+msgstr "选择默认的文章格式。"
+
+#: djd-site-post/views/admin.php:302
+msgid "Allow the selection off the Post Format inside the form."
+msgstr "允许在表单中选择文章格式。"
+
+#: djd-site-post/views/admin.php:309
+msgid "Hide the WordPress Toolbar."
+msgstr "隐藏WordPress工具栏。"
+
+#: djd-site-post/views/admin.php:316
+msgid "Deny subscribers and contributors access to the backend."
+msgstr "拒绝用户和投稿者访问到后端。"
+
+#: djd-site-post/views/admin.php:323
+msgid "Hide the regular WordPress Edit Link."
+msgstr "隐藏常规WordPress的编辑链接。"
+
+#: djd-site-post/views/admin.php:330
+msgid "Allow guests to post."
+msgstr "允许游客发表文章。"
+
+#: djd-site-post/views/admin.php:339
+msgid "Dedicated account to use for guests"
+msgstr "游客发表文章使用的用户"
+
+#: djd-site-post/views/admin.php:341
+msgid "The dedicated account that should be used for guest posts."
+msgstr "用于游客发表文章的专用账户。"
+
+#: djd-site-post/views/admin.php:348
+msgid ""
+"Check if you want guests to select categories themselves. If not checked the "
+"default category you specify below will be used for guest posts."
+msgstr ""
+"允许游客自己选择文章分类。如果你不选择，那么游客发表文章将分类到默认分类！"
+
+#: djd-site-post/views/admin.php:361
+msgid "Category used for guest posts"
+msgstr "游客发表文章分类"
+
+#: djd-site-post/views/admin.php:363
+msgid "The category guest posts should be assigned to."
+msgstr "游客发表文章发表给该分类！"
+
+#: djd-site-post/views/admin.php:370
+msgid "Display a Spam Prevention Quiz. Applies to useres not logged in."
+msgstr "显示防止垃圾验证信息。适用于未登录用户！"
+
+#: djd-site-post/views/admin.php:373
+msgid "Section for all the general settings for this plugin."
+msgstr "所有本插件的常规设置部分。"
+
+#: djd-site-post/views/admin.php:376
+msgid "Section for all the settings specific to categories."
+msgstr "所有特定分类设置部分。"
+
+#: djd-site-post/views/admin.php:379
+msgid "Specify the fields you want to include in the form generated."
+msgstr "指定要在生成的表单中包括的字段。"
+
+#: djd-site-post/views/admin.php:380
+msgid ""
+"Please note that the Title will always be included - No Post without Title."
+msgstr "请注意，标题总是用 - 没有标题没有文章。"
+
+#: djd-site-post/views/admin.php:383
+msgid "You can specify your own labels for the form fields shown to the user"
+msgstr "你可以指定你自己的标签显示给用户的表单字段"
+
+#: djd-site-post/views/display.php:83
+msgid "Frontend Post"
+msgstr "前端发布"
+
+#: djd-site-post/views/display.php:90
+msgid "Text"
+msgstr "正文："
+
+#: djd-site-post/views/display.php:129
+msgid "Select a Category"
+msgstr "选择一个分类"
+
+#: djd-site-post/views/display.php:142
+msgid "Category"
+msgstr "分类："
+
+#: djd-site-post/views/display.php:153
+msgid "New category"
+msgstr "新的分类"
+
+#: djd-site-post/views/display.php:157
+msgid "Tags (comma-separated)"
+msgstr "标签（以英文逗号分隔）:"
+
+#: djd-site-post/views/display.php:172
+msgid "Post Format"
+msgstr "文章格式:"
+
+#: djd-site-post/views/display.php:183
+msgid "Your Name"
+msgstr "您的姓名:"
+
+#: djd-site-post/views/display.php:186
+msgid "Your Email"
+msgstr "您的电子邮箱："
+
+#: djd-site-post/views/display.php:194
+msgid "Wrong Quiz Answer!"
+msgstr "验证问题错误！"
+
+#: djd-site-post/views/display.php:202
+msgid "Post Status"
+msgstr "帖子状态："
+
+#: djd-site-post/views/display.php:212
+msgid "New Post"
+msgstr "新文章"
+
+#: djd-site-post/views/display.php:225
+msgid ""
+"Seems like you don't have Javascript enabled. To use this function you need "
+"to enable JavaScript."
+msgstr "好像你没有启用JavaScript。要使用此功能，您必须启用JavaScript。"

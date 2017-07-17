@@ -1,0 +1,49 @@
+/**
+ * Created by demo on 2017/4/6.
+ */
+module.exports = {
+    //谁发出的这条消息
+    fromuserid:{
+        type:"STRING"
+    },
+    //消息发出者的名字
+    fromusername:{
+        type:"STRING"
+    },
+    //发送给用的id,
+    touserid:{
+        type:"STRING"
+    },
+    //向哪个内容回复
+    context:{
+        type:"STRING"
+    },
+    topiccontext:{
+        type:"STRING"
+    },
+    //向哪个群发消息
+    togroupname:{
+        type:"STRING"
+    },
+    //消息类型：系统system，回复reply，公告notify，党员发展申请，request，消息message，群组消息group,加入群组,addgroup,
+    notifytype:{
+        type:"STRING"
+    },
+    //是否已读 1，读过 0 未读
+    isread:{
+        type:"STRING"
+    },
+    //不同种类消息的id
+    notifyid:{
+        type:"STRING"
+    },
+    //消息跳转到哪个页面
+    topage:{
+        type:"STRING"
+    },
+    //notifytype：request是否同意党员发展申请，1，同意，2，拒绝或者
+    // notifytype：addgroup 1，加入 0 移除
+    isagree:{
+        type:"STRING"
+    }
+};
